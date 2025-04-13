@@ -1,12 +1,37 @@
-# React + Vite
+# 🤖 ChatGenie – AI-Powered Chatbot Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChatGenie is a full-stack AI-powered chatbot web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) integrated with OpenAI's GPT API. It allows users to have real-time, intelligent conversations with an AI in a beautifully designed dark-themed interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 💬 Real-time AI-powered chat functionality
+- 🎨 Clean dark UI with large, readable fonts
+- ⚡ Smooth, responsive experience using Tailwind CSS and React
+- 🔁 Maintains chat history during the session
+- 🧠 Uses OpenAI GPT to respond to user queries
+- 🛡️ Graceful error handling for API failures and edge cases
+- 💡 Designed to be beginner-friendly and easy to extend
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology                      |
+|------------|----------------------------------|
+| Frontend   | React.js, Tailwind CSS, Axios    |
+| Backend    | Node.js, Express.js              |
+| API        | OpenAI GPT (chat completions API)|
+| Dev Tools  | Vite, Nodemon, ThunderClient     |
+
+---
+
+## How It Works
+1. The user types a message in the input field.
+2. The frontend sends the message to the backend via Axios.
+3.The backend sends the message to OpenAI using the GPT API.
+4. The AI response is sent back and displayed in the chat.
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss.
