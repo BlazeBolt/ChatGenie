@@ -1,30 +1,32 @@
 {
-  "name": "chatgenie",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "client": "npm start --prefix client",
-    "server": "nodemon server/index.js",
-    "dev": "concurrently \"npm run client\" \"npm run server\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "vite"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "concurrently": "^9.1.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "nodemon": "^3.1.9",
-    "openai": "^4.93.0",
-    "vite": "^6.2.6"
+    "axios": "^1.8.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^4.1.3",
+    "vite": "^6.2.0"
   }
 }
