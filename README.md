@@ -22,7 +22,7 @@ ChatGenie is a full-stack AI-powered chatbot web application built using the MER
 |------------|----------------------------------|
 | Frontend   | React.js, Tailwind CSS, Axios    |
 | Backend    | Node.js, Express.js              |
-| API        | OpenAI GPT (chat completions API)|
+| API        | OpenAI GPT                       |
 | Dev Tools  | Vite, Nodemon, ThunderClient     |
 
 ---
